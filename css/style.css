@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); ('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Saira+Condensed:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --font-primary: 'Lobster', cursive;
+    --font-secundary: 'Dancing Script', cursive;
+    --font-action: 'Saira Condensed', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+}
