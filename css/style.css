@@ -1,22 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); ('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Saira+Condensed:wght@100&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+body {
+    font-family: Open Sans, sans-serif;
+  }
+  
+  header {
+    height: 100px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 768px) {
+    header {
+         margin-bottom: 20px;
+         height: 200px;
+    }
+}
+  
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+         font-size: 36px;
+    }
+}
+  
+  section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+  }
+  
+  .card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+         display: block;
+         margin: 20px 10px;
+    }
+}
+  
+  .card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (max-width: 768px) {
+    .card img {
+         width: 100%;
+         height: 100%;
+    }
+}
+  
+  .card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .card details {
+         width: 100%;
+    }
+}
+  
+  .card details summary {
+    font-size: 18px;
+    padding: 10px;
+    
+  }
+
+  @media (max-width: 768px) {
+    .card details summary {
+         font-size: 16px;
+    }
+}
+  
+  .card details p {
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  @media (max-width: 768px) {
+    .card details p {
+         font-size: 14px;
+    }
 }
 
-:root{
-    --font-primary: 'Lobster', cursive;
-    --font-secundary: 'Dancing Script', cursive;
-    --font-action: 'Saira Condensed', sans-serif;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-
-}
+  
+  .card details blockquote {
+    color: #777;
+    font-style: italic;
+  }
