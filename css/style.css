@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lobster&family=Saira+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Lobster&family=Saira+Condensed:wght@100&display=swap');
 
-body {
-    font-family: Open Sans, sans-serif;
-  }
-  
+body{
+    min-height: 100%;
+    background: url(../imagens/fundo.png) fixed; 
+    background-size: cover;
+    background-position: center center;
+        
+}
+
   header {
     height: 100px;
-    border-bottom: 1px solid #000;
-    margin-bottom: 40px;
+    border-bottom: 1.5px solid #A52A2A;
+    margin-bottom: 50px;
+    font-family: 'Kiwi Maru', cursive;
+    text-align:center;
+    font-size: 20px ;
+    
+    
   }
 
   @media (max-width: 768px) {
@@ -17,8 +28,10 @@ body {
 }
   
   h1 {
-    text-transform: uppercase;
     margin-bottom: 0;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
+    
   }
 
   @media (max-width: 768px) {
@@ -37,9 +50,14 @@ body {
   .card {
     display: inline-block;
     margin: 10px;
-    border: 1px solid #000;
+    border: none;
     vertical-align: top;
     max-height: 100%;
+    font-family: 'Kiwi Maru', cursive;
+    background-color: #FAF0E6;
+    border-radius: .8rem;
+    box-shadow: 0 .1rem .8rem rgba(0,0,0,.4);
+    
   }
 
   @media (max-width: 768px) {
@@ -53,6 +71,7 @@ body {
     display: block;
     width: 300px;
     height: 300px;
+    border-radius: .8rem;
   }
 
   @media (max-width: 768px) {
@@ -61,11 +80,19 @@ body {
          height: 100%;
     }
 }
+
+    .card-info h2{
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(211, 139, 7);
+}
   
   .card details {
     width: 300px;
     height: auto;
     display: inline-block;
+    
   }
 
   @media (max-width: 768px) {
@@ -99,6 +126,6 @@ body {
 
   
   .card details blockquote {
-    color: #777;
+    color: #A52A2A;
     font-style: italic;
   }
